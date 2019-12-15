@@ -1,9 +1,10 @@
 <?php
+declare(strict_types=1);
 
 use DutchProvincePostcodeHelper\DutchProvincePostcodeHelper;
 use PHPUnit\Framework\TestCase;
 
-final class EmailTest extends TestCase {
+final class DutchProvincePostcodeHelperTest extends TestCase {
     /** var DutchProvincePostcodeHelper */
     protected $dutchProvincePostcodeHelper;
 

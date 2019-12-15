@@ -1,0 +1,12 @@
+# OS files
+.DS_Store
+thumbs.db
+
+# IDE
+/.idea
+
+# Dependency managers
+/vendor
+
+# Testing
+.phpunit.result.cache

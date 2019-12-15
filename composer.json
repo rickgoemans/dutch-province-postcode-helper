@@ -1,0 +1,50 @@
+{
+  "name": "rickgoemans/dutch-province-postcode-helper",
+  "type": "library",
+  "description": "The helper package for dutch postcodes and province related stuff.",
+  "keywords": [
+    "dutch",
+    "postcode",
+    "province"
+  ],
+  "authors": [
+    {
+      "name": "Rick Goemans",
+      "email": "rickgoemans@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^7.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "extra": {
+  },
+  "autoload": {
+    "files": [
+    ],
+    "psr-4": {
+      "DutchProvincePostcodeHelper\\": "src/"
+    },
+    "classmap": [
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "scripts": {
+  },
+  "repositories": [
+  ]
+}
